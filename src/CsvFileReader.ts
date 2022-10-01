@@ -6,6 +6,8 @@ type MatchData = [Date, string, string, number, number, MatchResult, string];
 export class CsvFileReader {
   data: MatchData[] = [];
 
+  console.log("HI")
+
   constructor(public filename: string) {}
 
   read(): void {
